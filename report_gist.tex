@@ -1,6 +1,6 @@
 \documentclass[a5j]{jsarticle}
 \usepackage[dvipdfmx]{graphicx}
-\graphicspath{{../fig/}}
+\graphicspath{{../graph/}}
 
 \title{ビーム照射化における偏極陽子標的の偏極度低下の推定}
 
@@ -51,6 +51,13 @@ $P_th$は熱平衡時のナフタレン単結晶の偏極度、$T_D$は偏極発
 また、ビームのon$t_{beam}$はビームの照射時間、$t_{switch}$はビーム照射のon/off切り替えや強度変更時刻からの経過時間を表す。
 上式は解析的に解くことができないため、数値計算を用いてHIMAC実験で得られた偏極度推移の
 データに対してフィッティングを行うことで、積分効果と強度効果の相対評価を行う。
+パラメータ探索には以下の3つの手法を検討し、最も精度よくフィットできたPSO法を採用した。
+\begin{enumerate}
+  \item Grid Search
+  \item Levenberg–Marquardt(LM)法
+  \item 粒子群最適化(PSO)法(Particle Swarm Optimize)
+\end{enumerate}
+
 \section{Particle Swarm Optimize}
 
 上記の微分方程式は6つのパラメータを持つ。
@@ -64,11 +71,28 @@ Particle Swarm Optimize法(以下PSO法)はパラメータ探索方法の一つ�
 
 
 \part{解析結果}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=7cm]{graph/fit.png}
+  \caption{実験データ(点)と最適パラメータを用いた時のフィット結果(実線)}
+\end{figure}
 \section{各パラメータの数値}
 
 \part{考察}
 \section{ビーム照射中の緩和効果の比較}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=10cm]{graph/comparison.png}
+  \caption{ビーム照射中の緩和効果の比較}
+\end{figure}
+
 \section{長時間・大強度ビーム照射時の減偏極予想}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=10cm]{graph/longtime.png}
+  \caption{長時間・大強度ビーム照射時の減偏極予想}
+\end{figure}
+
 \section{ビーム実験の最適ビーム強度と最適ビームタイム}
 \subsection{スピン相関係数を十分な精度で測定するために必要な収量}
 \subsection{収量と標的偏極度、ビーム強度、照射時間の関係}
