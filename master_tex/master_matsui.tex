@@ -1,0 +1,145 @@
+\documentclass[12pt,a4j]{ujreport}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{bm,fancyhdr}
+\usepackage{color,caption,amsmath}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{braket}
+\usepackage{mathtools}
+
+\pagestyle{fancy}
+ \lhead{\small \rightmark}
+ \rhead{\small \leftmark}
+ \cfoot{\thepage}
+ \setlength{\headheight}{16pt}
+ \renewcommand{\chaptermark}[1]{\markboth{第\ \normalfont\thechapter\ 章~#1}{}}
+ \renewcommand{\sectionmark}[1]{\markright{\thesection \ #1}{}}
+
+ \captionsetup[figure]{font=footnotesize}
+ \captionsetup[table]{font=footnotesize}
+
+\def\doublerulefill{%
+\noindent\leavevmode\leaders\hbox{\ooalign{\vrule width 1pt height 0.65zh depth -0.6zh \crcr \vrule width 1pt height 0.45zh depth -0.4zh}}\hfill\kern0pt}
+
+\begin{document}
+
+%% Title Page %%
+ \thispagestyle{empty}
+ \begin{center}
+ 
+  {\Large \textrm{修士論文}}\\
+  \vspace{1.5cm}
+  \doublerulefill \\
+  {\LARGE \textmc{ビーム照射下における偏極固体陽子標的の偏極度低下の推定}}\\
+  \vspace{0.5cm}
+  {\Large \textrm{Estimation of depolarization of polarized solid proton target under beam irradiation}}\\
+  \doublerulefill \\
+  \vspace{0.75cm}
+  
+\begin{figure}[h]
+ \centering
+ \includegraphics[clip,width=3cm]{./Toh_E_M_P_K.eps}\\
+\end{figure}
+
+  \vspace{0.75cm}
+  {\Large \textrm{東北大学大学院 理学研究科 \\ 物理学専攻}}\\
+  \vspace{0.5cm}
+  {\LARGE \textrm{松井 貴哉}}\\
+  \vspace{1cm}
+  
+   \begin{flushbottom}
+    {\Large \textrm{令和6年}} \\
+   \end{flushbottom}
+ 
+ \end{center}
+%%%%
+
+%% Setting & Contents %%
+ \newpage
+ 
+ \setcounter{tocdepth}{2}
+ \setcounter{page}{1}
+ \pagenumbering{roman}
+ 
+ \thispagestyle{empty} 
+ \include{./abst/abst}
+ 
+ \tableofcontents
+
+
+
+ \makeatletter
+ \renewcommand{\theequation}{\thechapter.\arabic{equation}}
+ \@addtoreset{equation}{chapter}
+ \makeatother
+
+ \makeatletter
+ \renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+ \@addtoreset{figure}{chapter}
+ \makeatother
+ 
+ \renewcommand{\bibname}{参考文献}
+%%%%
+
+%% Main Contents %%
+ \newpage
+
+ \setcounter{page}{1}
+ \pagenumbering{arabic}
+
+
+ \include{./chap1/chap1}
+ \include{./chap2/chap2}
+ \include{./chap3/chap3}
+ \include{./chap4/chap4}
+ \include{./chap5/chap5}
+ \include{./chap6/chap6}
+ \include{./chap7/chap7}
+
+%%%%
+
+%% References %%
+\begin{thebibliography}{99}
+\addcontentsline{toc}{chapter}{\bibname}
+
+
+
+
+% chapter 2 %
+\bibitem{David}
+David J. Sloop, Hsiang-Lin Yu, Tien-Sung Lin, and S. I. Weissman. Electron spin
+echoes of a photoexcited triplet: Pentacene in p-terphenyl crystals. $\it Journal of Chemical Physics $, 75:3746–3757 (1981).
+\bibitem{Iinuma}
+Masataka Iinuma. “dynamic nuclear polarization at high temperature for polarized
+proton target”. Ph. D Thesis, Kyoto University (1997).
+\bibitem{Tateishi}
+立石健一郎, 博士論文, 大阪大学 (2013).
+\bibitem{Henstra1}
+Henstra, A., Dirksen, P. Wenckebach, W. T., Physics Letter56s A $\bf 134$, 134-136 (1988).
+\bibitem{Takeda}
+K. Takeda, Doctor’s thesis, Kyoto University (2003).
+\bibitem{Takeda2}
+K. Takeda, Journal of Magnetic Resonance $\bf 192$, 218-229 (2008).
+\bibitem{Henstra2}
+Henstra, A., Lin, T. S., Schmidt, J.Wenckebach, W. T., Chemical Physics Letters $\bf 165$, 6-10 (1990).
+\bibitem{Abragam}
+Abragam, A. Principles of Nuclear Magnetism (Clarendon, Oxford, 1961).
+\bibitem{Levitt}
+Levitt, M. H. Spin dynamics, Basics of nuclear magnetic resonance (John Wiley
+and Son, Chichester, 2001).
+\bibitem{Chem}
+J. Chem. Thermodynamics $\bf{2002}$, 34, 1873–1884
+\end{thebibliography}
+
+%%%
+
+%% Acknowledgments %%
+ \chapter*{謝辞}
+ \addcontentsline{toc}{chapter}{謝辞}
+
+
+%%%%
+
+\end{document}

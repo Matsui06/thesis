@@ -1,0 +1,52 @@
+%\documentclass[11pt]{tarticle}
+% yokogaki
+\documentclass[11pt]{tbook}
+%\usepackage{multirow}
+%\pagestyle{empty}
+
+\newcount\K
+\def\mywhile#1{
+\K=0
+\loop\ifnum\K<8
+
+{\large 修士論文 \ \ \ \ \ \ 中性子透過率を利用した偏極
+\begin{minipage}<y>[t]{0.58cm}
+$^{3}$He
+\end{minipage}
+標的の数密度評価と標的偏極度絶対値の決定
+\ \ \ \ \ \ \ \ \ \ \ 平成
+\begin{minipage}<y>{0.35cm}
+30
+\end{minipage}
+年 \ \ \ \ \ 澁谷峻}
+%
+\vspace{40truept}
+%
+
+\advance\K by1
+\repeat
+}
+
+\begin{document}
+\parindent=0pt
+%\maketitle
+%\boldmath
+%\renewcommand{\multirowsetup}{\centering}
+%\begin{tabular}{ll}
+%{\large \bf Search for Three Nucleon Force Effect
+% \mbox{\boldmath $via$} $d$--$p$ Elastic Scattering}
+% &
+% \multirow{2}{92mm}{\bf \LARGE  和田 泰敬} \\
+
+\mywhile{10}
+
+% &   \\
+%{\large 修士論文 }
+%\\
+%{\large \bf Search for Three Nucleon Force Effect
+% \mbox{\boldmath $via$} $d$--$p$ Elastic Scattering}
+% &
+% \multirow{2}{92mm}{\LARGE \bf 関口 仁子} \\
+%{\large \bf 重陽子--陽子弾性散乱による三体力効果の探索}
+%\end{tabular}
+\end{document}

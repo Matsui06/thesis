@@ -1,0 +1,36 @@
+\contentsline {chapter}{\numberline {第1章}序論}{1}{}%
+\contentsline {section}{\numberline {1.1}重陽子-陽子弾性散乱を用いた3体核力の研究}{1}{}%
+\contentsline {section}{\numberline {1.2}重陽子-陽子弾性散乱に向けた偏極陽子標的の開発}{1}{}%
+\contentsline {section}{\numberline {1.3}陽子-陽子弾性散乱における放射損傷による減偏極の観測}{1}{}%
+\contentsline {chapter}{\numberline {第2章}偏極陽子固体標的}{3}{}%
+\contentsline {section}{\numberline {2.1}偏極}{3}{}%
+\contentsline {section}{\numberline {2.2}光励起励起三重項電子スピンを用いた動的核偏極(Triplet-DNP)の原理}{4}{}%
+\contentsline {subsection}{\numberline {2.2.1}パルスレーザによる重水素化ペンタセン電子の偏極}{4}{}%
+\contentsline {subsection}{\numberline {2.2.2}電子スピンから${}^1\rm {H}$スピンへの偏極移行}{6}{}%
+\contentsline {subsection}{\numberline {2.2.3}スピン拡散}{8}{}%
+\contentsline {subsection}{\numberline {2.2.4}Triplet-DNPによる偏極の蓄積}{8}{}%
+\contentsline {section}{\numberline {2.3}陽子の偏極信号の検出}{9}{}%
+\contentsline {subsection}{\numberline {2.3.1}NMRの基本原理}{9}{}%
+\contentsline {subsubsection}{ゼーマン相互作用}{9}{}%
+\contentsline {subsubsection}{密度演算子と回転座標系}{10}{}%
+\contentsline {subsubsection}{双極子相互作用}{11}{}%
+\contentsline {subsubsection}{RF照射と自己誘導減衰}{12}{}%
+\contentsline {subsection}{\numberline {2.3.2}偏極度モニター}{13}{}%
+\contentsline {section}{\numberline {2.4}偏極生成および測定装置}{14}{}%
+\contentsline {subsection}{\numberline {2.4.1}電磁石}{14}{}%
+\contentsline {subsection}{\numberline {2.4.2}標的チェンバー}{15}{}%
+\contentsline {subsection}{\numberline {2.4.3}パルスレーザ}{15}{}%
+\contentsline {subsection}{\numberline {2.4.4}磁場掃引・マイクロ波回路}{16}{}%
+\contentsline {subsection}{\numberline {2.4.5}NMR測定装置}{16}{}%
+\contentsline {section}{\numberline {2.5}HIMACにおける偏極陽子標的のビーム照射試験}{17}{}%
+\contentsline {chapter}{\numberline {第3章}減偏極の解析}{19}{}%
+\contentsline {section}{\numberline {3.1}レート方程式}{19}{}%
+\contentsline {section}{\numberline {3.2}解析手法}{20}{}%
+\contentsline {section}{\numberline {3.3}解析結果}{21}{}%
+\contentsline {chapter}{\numberline {第4章}考察}{22}{}%
+\contentsline {section}{\numberline {4.1}緩和項の相対評価}{22}{}%
+\contentsline {section}{\numberline {4.2}長時間・大強度ビーム照射時の減偏極予想}{23}{}%
+\contentsline {chapter}{\numberline {付録A}Zero Field splitting}{25}{}%
+\contentsline {subsection}{\numberline {A.0.1}静磁場下におけるエネルギー}{27}{}%
+\contentsline {chapter}{参考文献}{29}{}%
+\contentsline {chapter}{謝辞}{32}{}%

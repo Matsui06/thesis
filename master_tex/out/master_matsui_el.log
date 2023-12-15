@@ -1,0 +1,894 @@
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.12.6)  15 DEC 2023 19:11
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/mtsit/thesis/master_tex/master_matsui_el.tex
+(c:/Users/mtsit/thesis/master_tex/master_matsui_el.tex
+pLaTeX2e <2023-02-14u04>+1, based on
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(c:/texlive/2023/texmf-dist/tex/platex/jsclasses/jsbook.cls
+Document Class: jsbook 2023/02/23 jsclasses (okumura, texjporg)
+Class jsbook Info: Autodetected engine: upLaTeX on input line 222.
+\jsc@mpt=\dimen156
+\jsc@mmm=\dimen157
+\jsc@smallskipamount=\skip48
+LaTeX Info: Redefining \textmc on input line 516.
+LaTeX Info: Redefining \textgt on input line 518.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 580.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 774.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 774.
+\fullwidth=\dimen158
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 935.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 935.
+\c@part=\count184
+\c@chapter=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\jsc@tocl@width=\dimen159
+\@lnumwidth=\dimen160
+\bibindent=\dimen161
+(c:/texlive/2023/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2019/07/25 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 82.
+LaTeX Info: Redefining \LaTeX on input line 135.
+LaTeX Info: Redefining \LaTeXe on input line 188.
+)
+\heisei=\count193
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 107.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup5
+\symboldletters=\mathgroup6
+\symboldsymbols=\mathgroup7
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+\symboldmincho=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (c:/texlive/2023/texmf-dist/tex/platex/japanese-otf/otf.sty
+Package: otf 2023/06/25 TeX JP org, v1.7b8 psitau, u0.29 ttk
+LaTeX Font Info:    Redeclaring symbol font `mincho' on input line 344.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `normal'
+(Font)                  JY2/mc/m/n --> JY2/hmc/m/n on input line 344.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY2/gt/m/n --> JY2/hmc/m/n on input line 344.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY2/hmc/m/n --> JY2/hmc/bx/n on input line 346.
+LaTeX Font Info:    Redeclaring math alphabet \mathgt on input line 347.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `normal'
+(Font)                  JY2/gt/m/n --> JY2/hgt/m/n on input line 347.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `bold'
+(Font)                  JY2/gt/m/n --> JY2/hgt/m/n on input line 347.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `bold'
+(Font)                  JY2/hgt/m/n --> JY2/hgt/bx/n on input line 348.
+ (c:/texlive/2023/texmf-dist/tex/platex/japanese-otf/ajmacros.sty
+Package: ajmacros 2019/04/01 21:00 iNOUE Koich! <inoue@ma.ns.musashi-tech.ac.jp>
+\@tempcntc=\count194
+\@tempcntd=\count195
+\@tempcnte=\count196
+\@tempcntf=\count197
+)) (./fancyhdr.sty
+\fancy@headwidth=\skip51
+\f@ncyO@elh=\skip52
+\f@ncyO@erh=\skip53
+\f@ncyO@olh=\skip54
+\f@ncyO@orh=\skip55
+\f@ncyO@elf=\skip56
+\f@ncyO@erf=\skip57
+\f@ncyO@olf=\skip58
+\f@ncyO@orf=\skip59
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 149.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/07/31 v3.6n Customizing captions (AR)
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen164
+\captionmargin=\dimen165
+\caption@leftmargin=\dimen166
+\caption@rightmargin=\dimen167
+\caption@width=\dimen168
+\caption@indent=\dimen169
+\caption@parindent=\dimen170
+\caption@hangindent=\dimen171
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \leftskip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionskip \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \centering \fi #1{\hskip 1zw\relax }#2\par \vskip \belowcaptionskip } on input line 1170.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count198
+\c@continuedfloat=\count199
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen172
+)) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen173
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count266
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count267
+\leftroot@=\count268
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count269
+\DOTSCASE@=\count270
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box68
+\strutbox@=\box69
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen174
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count271
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count272
+\dotsspace@=\muskip16
+\c@parentequation=\count273
+\dspbrk@lvl=\count274
+\tag@help=\toks20
+\row@=\count275
+\column@=\count276
+\maxfields@=\count277
+\andhelp@=\toks21
+\eqnshift@=\dimen175
+\alignsep@=\dimen176
+\tagshift@=\dimen177
+\tagwidth@=\dimen178
+\totwidth@=\dimen179
+\lineht@=\dimen180
+\@envbody=\toks22
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (./titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box70
+\beforetitleunit=\skip63
+\aftertitleunit=\skip64
+\ttl@plus=\dimen181
+\ttl@minus=\dimen182
+\ttl@toksa=\toks24
+\titlewidth=\dimen183
+\titlewidthlast=\dimen184
+\titlewidthfirst=\dimen185
+)
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 22.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 22.
+ (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2023-04-19 L3 backend support: dvips
+\l__pdf_internal_box=\box71
+\g__pdf_backend_object_int=\count278
+\l__pdf_backend_content_box=\box72
+\l__pdf_backend_model_box=\box73
+\g__pdf_backend_annotation_int=\count279
+\g__pdf_backend_link_int=\count280
+\g__pdf_backend_link_sf_int=\count281
+) (out/master_matsui_el.aux)
+\openout1 = `master_matsui_el.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 28.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 28.
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 15.9785pt on input line 31.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 15.9785pt on input line 31.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 31.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 15.9785pt on input line 31.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 31.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 31.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 33.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 33.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 33.
+File: ./Toh_E_M_P_K.eps Graphic file (type eps)
+ <./Toh_E_M_P_K.eps> [1
+
+]
+\openout2 = `./abst/abst.aux'.
+
+ (./abst/abst.tex
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 2.
+) [1
+
+]
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 65.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 65.
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 65.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 65.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 65.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 65.
+ (./master_matsui_el.toc
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 2.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 2.
+LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 24.
+LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 24.
+ [2
+
+
+
+])
+\tf@toc=\write3
+\openout3 = `master_matsui_el.toc'.
+
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 83.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 83.
+ [3]
+\openout2 = `./chap1/chap1.aux'.
+
+ (./chap1/chap1.tex
+第1章
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 19.17792pt on input line 1.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 19.17792pt on input line 1.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 19.17792pt on input line 1.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 19.17792pt on input line 1.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 3.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 3.
+[1
+
+
+]) [2]
+\openout2 = `./chap2/chap2.aux'.
+
+ (./chap2/chap2.tex
+第2章
+[3
+
+
+
+
+]
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 33.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 33.
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 35.
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 35.
+
+
+LaTeX Warning: Reference `triplet_state' on page 4 undefined on input line 35.
+
+File: ./chap2/fig/triplet_state.png Graphic file (type bmp)
+<./chap2/fig/triplet_state.png> [4]
+
+LaTeX Warning: Reference `pentacene_axes' on page 5 undefined on input line 54.
+
+File: ./chap2/fig/pentacene_axes.png Graphic file (type bmp)
+<./chap2/fig/pentacene_axes.png>
+File: ./chap2/fig/energysplit_B0.png Graphic file (type bmp)
+ <./chap2/fig/energysplit_B0.png>
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 69.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 69.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 69.
+LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <9> not available
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 69.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 69.
+LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <9> not available
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 69.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 69.
+
+
+LaTeX Warning: Citation `David' on page 5 undefined on input line 69.
+
+
+LaTeX Warning: Citation `David' on page 5 undefined on input line 69.
+
+
+LaTeX Warning: Reference `energysplit' on page 5 undefined on input line 73.
+
+
+LaTeX Warning: Citation `David' on page 5 undefined on input line 75.
+
+[5]
+
+LaTeX Warning: Citation `David' on page 6 undefined on input line 81.
+
+
+LaTeX Warning: Citation `Iinuma' on page 6 undefined on input line 83.
+
+
+LaTeX Warning: Citation `Tateishi' on page 6 undefined on input line 89.
+
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 97.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 97.
+
+LaTeX Warning: Reference `Hartmann-Hahn' on page 6 undefined on input line 99.
+
+
+LaTeX Warning: Reference `Hartmann-Hahn' on page 6 undefined on input line 109.
+
+
+LaTeX Warning: Reference `spin_packet' on page 6 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Henstra1' on page 6 undefined on input line 116.
+
+[6]
+File: ./chap2/fig/spin_packet.png Graphic file (type bmp)
+ <./chap2/fig/spin_packet.png>
+
+LaTeX Warning: Reference `spin_packet' on page 7 undefined on input line 126.
+
+
+LaTeX Warning: Citation `Henstra2' on page 7 undefined on input line 128.
+
+
+LaTeX Warning: Reference `pulse_sequence' on page 7 undefined on input line 129.
+
+File: ./chap2/fig/pulse_sequence.png Graphic file (type bmp)
+<./chap2/fig/pulse_sequence.png>
+
+LaTeX Warning: Reference `B0t' on page 7 undefined on input line 140.
+
+
+LaTeX Warning: Reference `Insulation conditions' on page 7 undefined on input line 147.
+
+
+LaTeX Warning: Reference `Hamiltonian' on page 7 undefined on input line 159.
+
+[7]
+
+LaTeX Warning: Citation `Takeda' on page 8 undefined on input line 182.
+
+[8]
+
+LaTeX Warning: Reference `T_{1laser}' on page 9 undefined on input line 190.
+
+
+LaTeX Warning: Reference `pol' on page 9 undefined on input line 197.
+
+
+LaTeX Warning: Reference `Zeeman' on page 9 undefined on input line 210.
+
+
+LaTeX Warning: Reference `spin_operator' on page 9 undefined on input line 248.
+
+[9]
+
+LaTeX Warning: Reference `spin_updown' on page 10 undefined on input line 255.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> ...n {aligned} \hat {\rho } &= \mathbb 
+                                                  {N}^{-1}(\ket {\psi _1}\br...
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> ...at {\rho } &= \mathbb {N}^{-1}(\ket 
+                                                  {\psi _1}\bra {\psi _1}+\k...
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> ...\mathbb {N}^{-1}(\ket {\psi _1}\bra 
+                                                  {\psi _1}+\ket {\psi _2}\b...
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> ...}(\ket {\psi _1}\bra {\psi _1}+\ket 
+                                                  {\psi _2}\bra {\psi _2}+\d...
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> ...1}\bra {\psi _1}+\ket {\psi _2}\bra 
+                                                  {\psi _2}+\dots )\\ &= \ov...
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> \ket 
+                {\psi } \bra {\psi }
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> \ket {\psi } \bra 
+                             {\psi }
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> ...n {aligned} \hat {\rho } &= \mathbb 
+                                                  {N}^{-1}(\ket {\psi _1}\br...
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> ...at {\rho } &= \mathbb {N}^{-1}(\ket 
+                                                  {\psi _1}\bra {\psi _1}+\k...
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> ...\mathbb {N}^{-1}(\ket {\psi _1}\bra 
+                                                  {\psi _1}+\ket {\psi _2}\b...
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> ...}(\ket {\psi _1}\bra {\psi _1}+\ket 
+                                                  {\psi _2}\bra {\psi _2}+\d...
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> ...1}\bra {\psi _1}+\ket {\psi _2}\bra 
+                                                  {\psi _2}+\dots )\\ &= \ov...
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> \ket 
+                {\psi } \bra {\psi }
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chap2/chap2.tex:278: Undefined control sequence.
+<argument> \ket {\psi } \bra 
+                             {\psi }
+l.278 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `Liouville' on page 10 undefined on input line 279.
+
+
+LaTeX Warning: Reference `Liouville2' on page 10 undefined on input line 285.
+
+
+LaTeX Warning: Reference `rhoR' on page 10 undefined on input line 296.
+
+
+LaTeX Warning: Reference `Hamiltonian_R' on page 10 undefined on input line 305.
+
+
+LaTeX Warning: Reference `dipole_H' on page 10 undefined on input line 314.
+
+[10]
+
+LaTeX Warning: Reference `dipole_H' on page 11 undefined on input line 325.
+
+
+LaTeX Warning: Reference `dipole_H2' on page 11 undefined on input line 326.
+
+
+LaTeX Warning: Citation `Abragam' on page 11 undefined on input line 326.
+
+
+LaTeX Warning: Reference `H_Z' on page 11 undefined on input line 342.
+
+
+LaTeX Warning: Reference `dipole_H2' on page 11 undefined on input line 357.
+
+
+LaTeX Warning: Reference `H_DR' on page 11 undefined on input line 360.
+
+[11]
+
+LaTeX Warning: Citation `Levitt' on page 12 undefined on input line 367.
+
+
+LaTeX Warning: Reference `dipole_H2' on page 12 undefined on input line 368.
+
+
+LaTeX Warning: Reference `H_DR2' on page 12 undefined on input line 369.
+
+
+LaTeX Warning: Reference `H_DR2' on page 12 undefined on input line 375.
+
+
+LaTeX Warning: Reference `UFF1' on page 12 undefined on input line 376.
+
+
+LaTeX Warning: Reference `RF_H' on page 12 undefined on input line 389.
+
+
+LaTeX Warning: Reference `RF_H' on page 12 undefined on input line 397.
+
+
+LaTeX Warning: Reference `RF_H2' on page 12 undefined on input line 397.
+
+[12]
+
+LaTeX Warning: Reference `rho_2' on page 13 undefined on input line 418.
+
+
+LaTeX Warning: Reference `rho_3' on page 13 undefined on input line 425.
+
+
+LaTeX Warning: Reference `Tr2' on page 13 undefined on input line 433.
+
+
+LaTeX Warning: Reference `magnet' on page 13 undefined on input line 459.
+
+
+LaTeX Warning: Reference `magnet' on page 13 undefined on input line 461.
+
+
+LaTeX Warning: Reference `magnet' on page 13 undefined on input line 462.
+
+
+LaTeX Warning: Reference `magnet' on page 13 undefined on input line 464.
+
+[13]
+File: ./chap2/fig/magnet.png Graphic file (type bmp)
+ <./chap2/fig/magnet.png> [14]
+
+LaTeX Warning: Reference `chamber_str' on page 15 undefined on input line 477.
+
+
+LaTeX Warning: Reference `chamber' on page 15 undefined on input line 481.
+
+
+LaTeX Warning: Reference `chamber_str' on page 15 undefined on input line 481.
+
+File: ./chap2/fig/chamber_str.png Graphic file (type bmp)
+<./chap2/fig/chamber_str.png>
+File: ./chap2/fig/chamber.png Graphic file (type bmp)
+ <./chap2/fig/chamber.png>
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 498.
+
+
+LaTeX Warning: Reference `chamber_str' on page 15 undefined on input line 498.
+
+
+LaTeX Warning: Reference `chamber_str' on page 15 undefined on input line 498.
+
+
+LaTeX Warning: Reference `circuit' on page 15 undefined on input line 520.
+
+[15]
+File: ./chap2/fig/circuit.png Graphic file (type bmp)
+ <./chap2/fig/circuit.png>
+
+LaTeX Warning: Reference `duplexer' on page 16 undefined on input line 532.
+
+
+LaTeX Warning: Citation `Takeda2' on page 16 undefined on input line 534.
+
+[16]
+File: ./chap2/fig/duplexer.png Graphic file (type bmp)
+ <./chap2/fig/duplexer.png>
+
+LaTeX Warning: Reference `HIMAC_data' on page 17 undefined on input line 554.
+
+File: ./chap2/fig/HIMAC_data.png Graphic file (type bmp)
+<./chap2/fig/HIMAC_data.png>
+Overfull \hbox (34.83717pt too wide) in paragraph at lines 558--560
+ [][] 
+ []
+
+[17]
+
+LaTeX Warning: Reference `HIMAC_data' on page 18 undefined on input line 564.
+
+) [18]
+\openout2 = `./chap3/chap3.aux'.
+
+ (./chap3/chap3.tex
+第3章
+
+LaTeX Warning: Reference `HIMAC_data' on page 19 undefined on input line 2.
+
+
+LaTeX Warning: Reference `eq:1' on page 19 undefined on input line 9.
+
+
+LaTeX Warning: Reference `eq:2' on page 19 undefined on input line 17.
+
+
+LaTeX Warning: Reference `eq:1' on page 19 undefined on input line 24.
+
+LaTeX Font Info:    Kanji font shape `JY2/hmc/m/it' undefined
+(Font)              No change on input line 27.
+[19
+
+
+
+
+]
+File: ./chap3/fig/CCbond.png Graphic file (type bmp)
+ <./chap3/fig/CCbond.png>
+
+LaTeX Warning: Reference `eq:4' on page 20 undefined on input line 43.
+
+File: ./chap3/fig/fit.png Graphic file (type bmp)
+<./chap3/fig/fit.png> [20]
+
+LaTeX Warning: Reference `fit' on page 21 undefined on input line 72.
+
+) [21]
+\openout2 = `./chap4/chap4.aux'.
+
+ (./chap4/chap4.tex
+第4章
+File: ./chap4/fig/comparison.png Graphic file (type bmp)
+<./chap4/fig/comparison.png>
+
+LaTeX Warning: Reference `C_T' on page 22 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Chem' on page 22 undefined on input line 16.
+
+File: ./chap4/fig/C_T.png Graphic file (type bmp)
+<./chap4/fig/C_T.png>
+
+LaTeX Warning: Citation `Chem' on page 22 undefined on input line 23.
+
+
+LaTeX Warning: Citation `Chem' on page 22 undefined on input line 23.
+
+[22
+
+
+
+
+]
+File: ./chap4/fig/longtime.png Graphic file (type bmp)
+ <./chap4/fig/longtime.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23]) [24]
+\openout2 = `./chap5/chap5.aux'.
+
+ (./chap5/chap5.tex)
+\openout2 = `./chap6/chap6.aux'.
+
+ (./chap6/chap6.tex)
+\openout2 = `./chap7/chap7.aux'.
+
+ (./chap7/chap7.tex
+付録A
+
+LaTeX Warning: Reference `DD' on page 25 undefined on input line 13.
+
+[25
+
+
+
+
+
+
+
+
+
+
+] [26]
+
+LaTeX Warning: Reference `pentacene_axes' on page 27 undefined on input line 151.
+
+[27]) [28] [29
+
+
+
+] [30] [31] [32
+
+]
+
+Package caption Warning: Unused \captionsetup[table] on input line 17.
+See the caption package documentation for explanation.
+
+[33] (out/master_matsui_el.aux (out/./abst/abst.aux) (out/./chap1/chap1.aux) (out/./chap2/chap2.aux) (out/./chap3/chap3.aux) (out/./chap4/chap4.aux) (out/./chap5/chap5.aux) (out/./chap6/chap6.aux) (out/./chap7/chap7.aux))
+ ***********
+pLaTeX2e <2023-02-14u04>+1, based on
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6222 strings out of 477039
+ 97240 string characters out of 5811344
+ 1934637 words of memory out of 7000000
+ 27524 multiletter control sequences out of 15000+600000
+ 589508 words of font info for 174 fonts, out of 8000000 for 9000
+ 41 hyphenation exceptions out of 8191
+ 57i,18n,65p,1882b,1032s stack positions out of 30000i,1000n,20000p,200000b,200000s
+
+Output written on out/master_matsui_el.dvi (37 pages, 136540 bytes).

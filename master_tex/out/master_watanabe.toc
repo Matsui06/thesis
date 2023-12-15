@@ -1,0 +1,50 @@
+\contentsline {chapter}{\numberline {第1章}序論}{1}{}%
+\contentsline {section}{\numberline {1.1}重陽子-陽子弾性散乱を用いた3体核力の研究}{1}{}%
+\contentsline {section}{\numberline {1.2}重陽子-陽子弾性散乱に向けた偏極陽子標的の開発}{1}{}%
+\contentsline {section}{\numberline {1.3}陽子-陽子弾性散乱における放射損傷による減偏極の観測}{1}{}%
+\contentsline {chapter}{\numberline {第2章}偏極陽子固体標的}{2}{}%
+\contentsline {section}{\numberline {2.1}偏極}{2}{}%
+\contentsline {section}{\numberline {2.2}光励起励起三重項電子スピンを用いた動的核偏極(Triplet-DNP)の原理}{2}{}%
+\contentsline {subsection}{\numberline {2.2.1}パルスレーザによる重水素化ペンタセン電子の偏極}{3}{}%
+\contentsline {subsection}{\numberline {2.2.2}電子スピンから${}^1\rm {H}$スピンへの偏極移行}{5}{}%
+\contentsline {chapter}{\numberline {第3章}付録}{7}{}%
+\contentsline {section}{\numberline {3.1}Zero Field splitting(付録の方がいいかも)}{7}{}%
+\contentsline {subsection}{\numberline {3.1.1}静磁場下におけるエネルギー}{8}{}%
+\contentsline {chapter}{\numberline {第4章}偏極${}^3$He標的装置}{10}{}%
+\contentsline {section}{\numberline {4.1}${}^3$He標的セル}{10}{}%
+\contentsline {subsection}{\numberline {4.1.1}標的セルの製作装置}{11}{}%
+\contentsline {subsection}{\numberline {4.1.2}標的セルの製作方法}{14}{}%
+\contentsline {section}{\numberline {4.2}偏極生成装置}{17}{}%
+\contentsline {subsection}{\numberline {4.2.1}静磁場発生用コイル}{17}{}%
+\contentsline {subsection}{\numberline {4.2.2}標的オーブン}{17}{}%
+\contentsline {subsection}{\numberline {4.2.3}半導体レーザー}{19}{}%
+\contentsline {subsection}{\numberline {4.2.4}光学系}{20}{}%
+\contentsline {section}{\numberline {4.3}${}^3$He偏極度測定装置}{23}{}%
+\contentsline {subsection}{\numberline {4.3.1}AFP-NMR装置}{23}{}%
+\contentsline {subsection}{\numberline {4.3.2}Rb-ESR測定装置}{29}{}%
+\contentsline {chapter}{\numberline {第5章}${}^3$Heの偏極生成と偏極度の絶対値較正}{31}{}%
+\contentsline {section}{\numberline {5.1}${}^3$He偏極生成}{31}{}%
+\contentsline {subsection}{\numberline {5.1.1}偏極発展}{31}{}%
+\contentsline {subsection}{\numberline {5.1.2}偏極緩和}{32}{}%
+\contentsline {section}{\numberline {5.2}${}^3$He偏極度の絶対値較正}{34}{}%
+\contentsline {subsection}{\numberline {5.2.1}RbのESR周波数シフトによる${}^3$He偏極度測定}{34}{}%
+\contentsline {subsection}{\numberline {5.2.2}NMR信号の較正}{37}{}%
+\contentsline {chapter}{\numberline {第6章}陽子--${}^3$He弾性散乱実験による${}^3$He偏極分解能測定}{39}{}%
+\contentsline {section}{\numberline {6.1}実験概要}{39}{}%
+\contentsline {section}{\numberline {6.2}検出器系および標的}{40}{}%
+\contentsline {subsection}{\numberline {6.2.1}$55^{\circ }$検出器}{40}{}%
+\contentsline {subsection}{\numberline {6.2.2}$70^{\circ }$検出器}{41}{}%
+\contentsline {subsection}{\numberline {6.2.3}ビームモニター}{42}{}%
+\contentsline {subsection}{\numberline {6.2.4}散乱標的}{43}{}%
+\contentsline {section}{\numberline {6.3}実験条件}{44}{}%
+\contentsline {section}{\numberline {6.4}測定および解析結果}{45}{}%
+\contentsline {subsection}{\numberline {6.4.1}陽子--$^3$He弾性散乱イベントの抽出}{45}{}%
+\contentsline {subsection}{\numberline {6.4.2}バックグラウンドの評価}{45}{}%
+\contentsline {subsection}{\numberline {6.4.3}解析結果}{46}{}%
+\contentsline {chapter}{\numberline {第7章}議論と考察}{50}{}%
+\contentsline {section}{\numberline {7.1}RbのESR周波数シフト測定の測定精度}{50}{}%
+\contentsline {section}{\numberline {7.2}$^3$He偏極分解能$A_y$の測定精度}{52}{}%
+\contentsline {section}{\numberline {7.3}$^3$He偏極分解能の測定精度の向上}{53}{}%
+\contentsline {chapter}{\numberline {第8章}まとめと展望}{56}{}%
+\contentsline {chapter}{参考文献}{58}{}%
+\contentsline {chapter}{謝辞}{62}{}%

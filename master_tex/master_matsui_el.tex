@@ -1,0 +1,296 @@
+\documentclass[12pt,a4j,openany,report]{jsbook}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{bm,otf,fancyhdr}
+\usepackage{color,caption,amsmath}
+\usepackage[]{titlesec}
+
+
+\pagestyle{fancy}
+ \lhead{\small \rightmark}
+ \rhead{\small \leftmark}
+ \cfoot{\thepage}
+ \setlength{\headheight}{16pt}
+ \renewcommand{\chaptermark}[1]{\markboth{第\ \normalfont\thechapter\ 章~#1}{}}
+ \renewcommand{\sectionmark}[1]{\markright{\thesection \ #1}{}}
+
+ \captionsetup[figure]{font=small}
+ \captionsetup[table]{font=small}
+
+ \def\doublerulefill{%
+ \noindent\leavevmode\leaders\hbox{\ooalign{\vrule width 1pt height 0.65zh depth -0.6zh \crcr \vrule width 1pt height 0.45zh depth -0.4zh}}\hfill\kern0pt}
+
+\begin{document}
+
+%% Title Page %%
+ \thispagestyle{empty}
+ \begin{center}
+ 
+  {\Large \textrm{修士論文}}\\
+  \vspace{1.5cm}
+  \doublerulefill \\
+  {\LARGE \textmc{陽子--$^3$He散乱実験に向けた \\ RbのESR測定による \\ $^3$He偏極度測定システムの開発}}\\
+  \vspace{0.5cm}
+  {\Large \textrm{Development of $^3$He polarimeter using \\ electron spin resonance of Rb atom \\ for the measurement of $p+{}^3$He scattering}}\\
+  \doublerulefill \\
+  \vspace{0.75cm}
+  
+\begin{figure}[h]
+ \centering
+ \includegraphics[clip,width=3cm]{./Toh_E_M_P_K.eps}\\
+\end{figure}
+
+  \vspace{0.75cm}
+  {\Large \textrm{東北大学大学院 理学研究科 \\ 物理学専攻}}\\
+  \vspace{0.5cm}
+  {\LARGE \textrm{渡邉 跡武}}\\
+  \vspace{1cm}
+  
+   \begin{flushbottom}
+    {\Large \textrm{平成27年}} \\
+   \end{flushbottom}
+ 
+ \end{center}
+%%%%
+
+%% Setting & Contents %%
+ \newpage
+ 
+ \setcounter{tocdepth}{2}
+ \setcounter{page}{1}
+ \pagenumbering{roman}
+
+\thispagestyle{empty} 
+ \include{./abst/abst}
+
+ \tableofcontents
+
+
+
+ \makeatletter
+ \renewcommand{\theequation}{\thechapter.\arabic{equation}}
+ \@addtoreset{equation}{chapter}
+ \makeatother
+
+ \makeatletter
+ \renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+ \@addtoreset{figure}{chapter}
+ \makeatother
+ 
+ \renewcommand{\bibname}{参考文献}
+%%%%
+
+%% Main Contents %%
+ \newpage
+
+ \setcounter{page}{1}
+ \pagenumbering{arabic}
+
+
+ \include{./chap1/chap1}
+ \include{./chap2/chap2}
+ \include{./chap3/chap3}
+ \include{./chap4/chap4}
+ \include{./chap5/chap5}
+ \include{./chap6/chap6}
+ \include{./chap7/chap7}
+
+%%%%
+
+%% References %%
+\begin{thebibliography}{99}
+%\addcontentsline{toc}{chapter}{\bibname}
+
+% chapter 1 %
+%% 1.1 %%
+ \bibitem{yukawa}
+ H. Yukawa, Proc. Phys. Math. Soc. Japan $\bf 17$, 48 (1935).
+ \bibitem{Occ47}
+ G. P. S. Occhialini $\it et~al.$, Nature $\bf 159$, 186, 694 (1947).
+ \bibitem{MAW69}
+ M. H. MacGregor, R. A. Arndt, and R. A. Wright, Phys. Rev.  $\bf 182$, 1714 (1969).
+ \bibitem{MHE87}
+ R. Machleidt, K. Holinde, and Ch. Elster, Phys. Rep. $\bf 149$, 1 (1987).
+ 
+ \bibitem{WJS95}
+ R. B. Wiringa, V. G. J. Stoks, and R. Schiavilla, Phys. Rev. C $\bf 51$, 38 (1995).
+ \bibitem{Mac01}
+ R. Machleidt, Phys. Rev. C $\bf 63$, 024001 (2001).
+ \bibitem{Sto94}
+ V. G. J. Stoks $\it et~al.$, Phys. Rev. C $\bf 49$, 2950 (1994).
+%%
+%% 1.2 %%
+ \bibitem{Wig33}
+ E. Wigner, Phys. Rev. $\bf 43$, 252 (1933).
+ \bibitem{Fad61}
+ L. D. Faddeev, Sov. Phys. JETP $12$, 1014 (1961).
+ \bibitem{IS86}
+ S. Ishikawa and T. Sasakawa, Few Body Syst. $\bf 1$, 3 (1986).
+ \bibitem{Che86}
+ C. R. Chen $\it et~al.$, Phys. Rev. C $\bf 33$, 1740 (1986).
+ \bibitem{Nog02}
+ A. Nogga $\it et~al.$, Phys. Rev. C $\bf 65$, 054003 (2002).
+ \bibitem{FM57}
+ J. Fujita and H. Miyazawa, Prog. Theor. Phys. $\bf 17$, 360 (1957).
+ \bibitem{Pud97}
+ B. S. Pudliner $\it et~al.$, Phys. Rev. C $\bf 56$, 1720 (1997).
+ \bibitem{CH01}
+ S. A. Coon and H. K. Han, Few Body Syst. $\bf 30$, 131 (2001).
+ 
+ \bibitem{Glo96}
+ W. Gl\"{o}ckle $\it et~al.$, Phys. Rep. $\bf 274$, 107 (1996).
+ \bibitem{KVR01}
+ A. Kievsky, M. Viviani, and S. Rosati, Phys. Rev. C $\bf 64$, 024002 (2001).
+ \bibitem{Wit98}
+ H. Wita{\l}a $\it et~al$, Phys. Rev. Lett. $\bf 81$, 1183 (1998).
+ \bibitem{Sek02}
+ K. Sekiguchi $\it et~al$, Phys. Rev. C $\bf 65$, 034002 (2002).
+ \bibitem{Sek11}
+ K. Sekiguchi $\it et~al$, Phys. Rev. C $\bf 83$, 061001 (2011).
+ 
+ \bibitem{Pie01}
+ S. C. Pieper $\it et~al$, Phys. Rev. C $\bf 64$, 014001 (2001).
+ \bibitem{PVW02}
+ S. C. Pieper, K. Varga, and R. B. Wiringa, Phys. Rev. C $\bf 66$, 044310 (2002).
+ \bibitem{NO03}
+ P. Navr\'{a}til and W. E. Ormand, Phys. Rev. C $\bf 68$, 034305 (2003).
+ \bibitem{APR98}
+ A. Akmal, V. R. Pandharipande, and D. G. Ravenhall, Phys. Rev. C $\bf 58$, 1804 (1998).
+ \bibitem{GCR12}
+ S. Gandolfi, J. Carlson, and S. Reddy, Phys. Rev. C $\bf 85$, 032801 (2012).
+ \bibitem{Car15}
+ J. Carlson $\it et~al$, Rev. of Mod. Phys. $\bf 87$, 1067 (2015).
+ \bibitem{Mur84}
+ B. T. Murdoch $\it et~al$, Phys. Rev. C $\bf 29$, 2001 (1984).
+ \bibitem{DF13}
+ A. Deltuva and A. C. Fonseca, Phys. Rev. C $\bf 87$, 054002 (2013).
+ \bibitem{Viv13}
+ M. Viviani $\it et~al$, Phys. Rev. Lett. $\bf 111$, 172302 (2013).
+%%
+%% 1.3 %%
+ \bibitem{Ohl72}
+ G. G. Ohlsen, Rep. Prog. Phys. $\bf 35$, 717 (1972).
+%%
+%% 1.4 %%
+ \bibitem{wada}
+ 和田泰敬, 修士論文, 東北大学 (2013).
+ \bibitem{McC85}
+ R. H. McCamis $\it et~al.$, Phys. Rev. C $\bf 31$, 1651 (1985). 
+ \bibitem{shiokawa}
+ 塩川裕太, 修士論文, 東北大学 (2014).
+%%
+ 
+% chapter 2 %
+%% 2.1 %%
+ \bibitem{Fri90}
+ J. L. Friar $\it et~al.$, Phys. Rev. C $\bf 42$, 2310 (1990).
+ \bibitem{Cou88}
+ K. P. Coulter $\it et~al.$, Nucl. Instr. and Meth. A $\bf 270$, 90 (1988).
+ \bibitem{Cou90}
+ K. P. Coulter $\it et~al.$, Nucl. Instr. and Meth. A $\bf 288$, 463 (1990).
+ \bibitem{GTD95}
+ G. L. Greene, A. K. Thompson, and M. S. Dewey, Nucl. Instr. and Meth. A $\bf 356$, 177 (1995).
+%%
+%% 2.2 %%
+ \bibitem{CSW63}
+ F. D. Colegrove, L. D. Schearer, and G. K. Walters, Phys. Rev. $\bf 132$, 2561 (1963).
+ \bibitem{BCV60}
+ M. A. Bouchiat, T. R. Carver, and C. M. Varnum, Phys. Rev. Lett. $\bf 5$, 373 (1960).
+ \bibitem{Ye10}
+ Q. Ye $\it et~al.$,  Eur. Phys. J. A $\bf 44$, 55 (2010).
+%%
+%% 2.3 %%
+ \bibitem{Bab03}
+ E. Babcock $\it et~al.$, Phys. Rev. Lett. $\bf 91$, 123003 (2003).
+ \bibitem{Bor03}
+ P. I. Borel $\it et~al.$, Phys. Rev. A $\bf 67$, 062705 (2003).
+ \bibitem{WC89}
+M. E. Wagshul and T. E. Chupp, Phys. Rev. A $\bf 40$, 4447 (1989).
+ \bibitem{Lar91}
+ B. Larson $\it et~al.$, Phys. Rev. A $\bf 44$, 3108 (1991).
+ \bibitem{WWH85}
+ Z. Wu, T. G. Walker, and W. Happer, Phys. Rev. Lett. $\bf 54$, 1921 (1985).
+ \bibitem{WC94}
+ M. E. Wagshul and T. E. Chupp, Phys. Rev. A $\bf 49$, 3854 (1994).
+ \bibitem{Kil26}
+ T. Killian, Phys. Rev. $\bf 27$, 578 (1926).
+ 
+ \bibitem{Her65}
+ R. M. Herman, Phys. Rev. $\bf 137$, A1062, (1965).
+ \bibitem{Cha02}
+ B. Chann $\it et~al$, Phys. Rev. A $\bf 66$, 032703 (2002).
+ \bibitem{New93}
+ N. R. Newbury $\it et~al$, Phys. Rev. A $\bf 48$, 4411 (1993).
+ \bibitem{CSH88}
+ G. D. Cates, S. R. Schaefer, and W. Happer, Phys. Rev. A $\bf 37$, 2877 (1988).
+ \bibitem{GC65}
+ R. L. Gamblin and T. R. Carver, Phys. Rev. $\bf 138$, A946 (1965).
+ \bibitem{Cha03}
+ B. Chann $\it et~al$, Jour. Appl. Phys. $\bf 94$, 6908 (2003).
+ \bibitem{Bab06}
+ E. Babcock $\it et~al$, Phys. Rev. Lett. $\bf 96$, 083003 (2006).
+ \bibitem{Cat88}
+ G. D. Cates $\it et~al$, Phys. Rev. A $\bf 38$, 5092 (1988).
+%%
+%% 2.4 %%
+%%
+%% 2.5 %%
+ \bibitem{BR31}
+ G. Breit and I. I. Rabi, Phys. Rev. $\bf 38$, 2082-2083 (1931).
+ \bibitem{Dan08}
+ Daniel A. Steck, $\it Rubidium~85~D~Line~Data$, $\langle$http://steck.us/alkalidata$\rangle$ (revision 0.1.1, 2 May 2008).
+ 
+ \bibitem{RC98}
+ M. V. Romalis and G. D. Cates, Phys. Rev. A $\bf 58$, 3004 (1998).
+ \bibitem{BHP64}
+ L. C. Balling, R. J. Hanson, and F. M. Pipkin, Phys. Rev. $\bf 133$, A607 (1964).
+%%
+
+% chapter 3 %
+%% 3.1 %%
+ \bibitem{Jia13}
+ C. Y. Jiang $\it et~al$, Physics Procedia $\bf 42$, 191 (2013).
+%%
+
+% chapter 4 %
+
+% chapter 5 %
+
+% chapter 6 %
+%% 6.1 %%
+%%
+%% 6.2 %%
+ \bibitem{Del_pra}
+ A. Deltuva (private communication).
+%%
+%% 6.3 %%
+%%
+
+% chapter 7 %
+ 
+\end{thebibliography}
+
+%%%%
+
+%% Acknowledgments %%
+ \chapter*{謝辞}
+ \addcontentsline{toc}{chapter}{謝辞}
+
+本研究を進めていくにあたり、またこの2年間の東北大学での大学院生活において、多くの方々からご指導、ご鞭撻を頂きました。この場を借りて感謝を述べたいと思います。\\
+　指導教官である東北大学の関口仁子准教授には、科学者としての心得、姿勢等について熱心に教えて頂きました。山形大学を卒業し、東北大学大学院に進学したばかりでまだ環境の変化に慣れていない頃も、親身になって接してくださいました。また東北大学CYRICや、理化学研究所での実験等、とても貴重な経験をさせて頂きました。自分がこの2年間で研究者として大きく成長できたのは、関口仁子准教授のご指導のおかげです。心より感謝致します。\\
+　放射線医学総合研究所 重粒子医科学センターの涌井崇志氏には、昨年まで東北大学CYRICの助教として大変お世話になりました。偏極$^3$He標的に関する様々な助言を頂きました。また放射線医学総合研究所に異動してからも、半導体レーザーが故障してしまった時に貴重な意見等を頂きました。我々の偏極$^3$He標的の開発にあたり、多大な貢献をしてくださったことに感謝致します。\\
+　東北大学の小林俊雄教授には、研究室の先生としてご指導、ご協力を頂きました。様々な実験器具等を快く貸してくださったこと、心より感謝致します。我々の実験作業が円滑に行えたのは小林教授のご協力のおかげです。\\
+　東北大学CYRICの伊藤正俊准教授、原田健一助教にはCYRICでの実験時に様々なご指導、ご協力を頂きました。伊藤さんにはCYRICでのビーム実験の整備等をしてくださいました。原田さんには、我々が使用している半導体レーザーについてご指導、ご協力いただきました。レーザーが故障してしまった時に様々な意見を提案してくださったり、光学系の素子等を快く貸していただきました。この場を借りて感謝致します。これからもCYRICでの実験時にお世話になると思います。\\
+　技術職員の梅津裕生氏には、実験作業時にお世話になりました。大量の有機溶剤を扱う時に、安全に作業を行うために色々と手配をしてくださりました。ありがとうございました。\\
+　東北大学理学部硝子機器開発・研修室の扇充氏、澤田修太氏、佐藤由佳氏には、ガラスセルの製作で大変お世話になりました。非常に精巧なセルブランチを何個も作って頂きました。また封じきり用の酸素ボンベを快く貸して頂いたり、扇さんにはガラスの封じきりのコツを実演しながらご指導頂いたり、封じきりで使用するガラス棒を無償で頂いたりしました。我々が散乱実験を行えたのも、硝子機器開発・研修室の方々のおかげです。心より感謝致します。\\
+　理化学研究所の月花智博氏、シグマ光機株式会社の柳川滋氏には半導体レーザーや光学系について大変お世話になりました。月花さんには、我々の半導体レーザーの購入にあたって様々な手配をして頂きました。また柳川さんにはわざわざ東北大学にまで来て頂き、我々の光学系に関する意見や提案を頂きました。お二方には、今後の光学系等の改良において非常に有用な意見を頂きました。本当にありがとうございました。\\
+　研究室の先輩である和田泰敬氏、塩川裕太氏には、偏極$^3$He標的関連についてやその他の様々な物理的知識等を丁寧に教えて頂きました。和田さんには、研究だけでなく実生活においても大変お世話になりました。本研究での測定システムの開発も、和田さんの助力のおかげで達成することができました。心より感謝致します。塩川さんには、昨年まで研究室の先輩としてお世話になりました。塩川さんが製作した測定プログラムのおかげで、今も円滑に実験を行うことができています。感謝致します。\\
+　研究室の同期である江藤大二朗氏、市毛夏実氏、須藤貞美氏、高橋佑太氏、藤田真奈美氏、本田和久氏とは、2年程の短い間でしたが、同じ物理学を志す者同士として研究生活を送ってきました。特に江藤君とは、同じエキゾティックグループの同期として苦楽を共にしてきました。今後物理学研究に関わる事は無いかもしれませんが、この研究生活で学んだことを生かして頑張って欲しいです。同期の皆さんのおかげで、この2年間の研究生活で様々な経験をすることができました。本当にありがとうございました。\\
+　研究室の後輩である秋枝智美氏、今紘史氏、中居真之介氏、迎智之氏には、実験作業時やビーム実験時等でお世話になりました。これからまた大変になってくると思いますが、頑張って精進していって欲しいです。\\
+　23歳以下サッカー日本代表の皆様には、多大な勇気を頂きました。どんなに苦しい状況でも決して諦めない姿勢に感動致しました。アジア大会優勝おめでとうございます。この場を借りて感謝を致します。\\
+　最後に自分の大学および大学院生活を支えてくれた家族に感謝を述べたいと思います。自分の大学院進学にも反対せず、応援してくれて心より感謝します。これからも日進月歩で頑張っていきたいと思います。
+
+
+
+%%%%
+
+\end{document}

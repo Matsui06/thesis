@@ -1,0 +1,182 @@
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2020.3.26)  11 JAN 2022 13:27
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**sebyoushi_shibuya.tex
+(./sebyoushi_shibuya.tex
+pLaTeX2e <2020-02-02>+3 (based on LaTeX2e <2020-02-02> patch level 5)
+L3 programming layer <2020-02-25>
+(/usr/local/texlive/2019/texmf-dist/tex/platex/base/tbook.cls
+Document Class: tbook 2020/01/03 v1.8e Standard pLaTeX class
+\c@@paper=\count166
+(/usr/local/texlive/2019/texmf-dist/tex/platex/base/tbk11.clo
+File: tbk11.clo 2020/01/03 v1.8e Standard pLaTeX file (size option)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/platex/base/plext.sty
+Package: plext 2019/09/29 v1.2l pLaTeX package file (community edition)
+\@floatbox=\box61
+\floatwidth=\dimen150
+\floatheight=\dimen151
+\floatruletick=\dimen152
+\captionfloatsep=\dimen153
+\captionwidth=\dimen154
+\@captionbox=\box62
+LaTeX Info: Redefining \parbox on input line 333.
+\save@ybaselineshift=\dimen155
+\save@tbaselineshift=\dimen156
+\@picwd=\dimen157
+\rensujiskip=\skip47
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 712.
+\toclineskip=\dimen158
+\@lnumwidth=\dimen159
+\bibindent=\dimen160
+\heisei=\count176
+)
+\K=\count177
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2020-02-23 L3 backend support: dvips
+\l__pdf_internal_box=\box63
+\g__pdf_backend_object_int=\count178
+\l__pdf_backend_content_box=\box64
+\l__pdf_backend_model_box=\box65
+\g__pdf_backend_annotation_int=\count179
+\g__pdf_backend_link_int=\count180
+\g__pdf_backend_link_sf_int=\count181
+)
+(./sebyoushi_shibuya.aux)
+\openout1 = `sebyoushi_shibuya.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+ 《縦組モード》
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 41.
+
+Overfull \hbox (2.27783pt too wide) in paragraph at lines 41--41
+[]$[]$\OT1/cmr/m/n/12 He 
+ []
+
+
+Overfull \hbox (1.79124pt too wide) in paragraph at lines 41--41
+[]\OT1/cmr/m/n/12 30 
+ []
+
+
+Overfull \hbox (2.27783pt too wide) in paragraph at lines 41--41
+[]$[]$\OT1/cmr/m/n/12 He 
+ []
+
+
+Overfull \hbox (1.79124pt too wide) in paragraph at lines 41--41
+[]\OT1/cmr/m/n/12 30 
+ []
+
+
+Overfull \hbox (2.27783pt too wide) in paragraph at lines 41--41
+[]$[]$\OT1/cmr/m/n/12 He 
+ []
+
+
+Overfull \hbox (1.79124pt too wide) in paragraph at lines 41--41
+[]\OT1/cmr/m/n/12 30 
+ []
+
+
+Overfull \hbox (2.27783pt too wide) in paragraph at lines 41--41
+[]$[]$\OT1/cmr/m/n/12 He 
+ []
+
+
+Overfull \hbox (1.79124pt too wide) in paragraph at lines 41--41
+[]\OT1/cmr/m/n/12 30 
+ []
+
+
+Overfull \hbox (2.27783pt too wide) in paragraph at lines 41--41
+[]$[]$\OT1/cmr/m/n/12 He 
+ []
+
+
+Overfull \hbox (1.79124pt too wide) in paragraph at lines 41--41
+[]\OT1/cmr/m/n/12 30 
+ []
+
+
+Overfull \hbox (2.27783pt too wide) in paragraph at lines 41--41
+[]$[]$\OT1/cmr/m/n/12 He 
+ []
+
+
+Overfull \hbox (1.79124pt too wide) in paragraph at lines 41--41
+[]\OT1/cmr/m/n/12 30 
+ []
+
+
+Overfull \hbox (2.27783pt too wide) in paragraph at lines 41--41
+[]$[]$\OT1/cmr/m/n/12 He 
+ []
+
+
+Overfull \hbox (1.79124pt too wide) in paragraph at lines 41--41
+[]\OT1/cmr/m/n/12 30 
+ []
+
+
+Overfull \hbox (2.27783pt too wide) in paragraph at lines 41--41
+[]$[]$\OT1/cmr/m/n/12 He 
+ []
+
+
+Overfull \hbox (1.79124pt too wide) in paragraph at lines 41--41
+[]\OT1/cmr/m/n/12 30 
+ []
+
+[1
+
+] (./sebyoushi_shibuya.aux) ) 
+Here is how much of TeX's memory you used:
+ 568 strings out of 481528
+ 8558 string characters out of 5925951
+ 250854 words of memory out of 5000000
+ 16292 multiletter control sequences out of 15000+600000
+ 540256 words of font info for 55 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 24i,4n,22p,147b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on sebyoushi_shibuya.dvi (1 page, 2336 bytes).

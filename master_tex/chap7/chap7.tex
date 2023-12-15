@@ -1,0 +1,191 @@
+\appendix
+ \chapter{Zero Field splitting}
+ 電子スピン三重項状態は外磁場のない場合でも磁気双極子相互作用によって縮退が解けることが知られている。
+ 三重項状態の電子スピン$\mathbf{s_i}$,2スピン間距離$r$とすると磁気双極子相互作用ハミルトニアンは
+ \begin{equation}
+   \label{DD}
+   \mathcal{H_{SS}}=\frac{\mu}{4\pi} g^2\beta_B^2(\frac{\mathbf{s_1} \cdot \mathbf{s_2}}{r^3}-3\frac{(\mathbf{s_1}\cdot \mathbf{r_1})(\mathbf{s_2}\cdot \mathbf{r_2})}{r^5})
+ \end{equation}
+ %(\ref{DD})は電子スピンの演算子であることから、次のような行列$M$で表すことができる。
+ \begin{equation}
+   \mathcal{H_{SS}}=\mathbf{s_1}\cdot M \cdot \mathbf{s_2}
+ \end{equation}
+ $M$が(\ref{DD})を満たすには
+ \begin{displaymath}
+   \label{M}
+   M=\frac{\mu}{4\pi} \frac{g^2\beta_B^2}{r^5}
+   \left( \begin{array}{rrr}
+     r^2-3x^2 & -3xy & -3xz \\
+         -3yx & r^2-3y^2 & -3yz \\
+         -3zx & -3zy & r^2-3z^2 \\
+     \end{array} \right) 
+ \end{displaymath}
+ となればよい。$M$は実対称行列なので直交行列による対角化が可能であり、対角化後の行列を
+ 
+ \begin{displaymath}
+   D=\left( \begin{array}{rrr}
+     D_X & & \\
+      & D_Y & \\
+       & & D_Z\\
+   \end{array} \right)
+ \end{displaymath}
+ と定義すると、$D$の対角和は固有値の和と等しいため
+ \begin{equation}
+  \label{tr}
+   tr(D)=D_X+D_Y+D_Z=r^2-3x^2+r^2-3y^2+r^2-3y^2=0
+ \end{equation}
+ 直交行列はペンタセン分子の軸方向X,Y,Zに対応する。
+ \begin{eqnarray}
+   \mathcal{H_F}&=&\mathbf{s_1}\cdot D \cdot \mathbf{s_2}\\
+   \label{HF2}
+   &=&D_Xs_{1X}s_{2X}+D_Ys_{1Y}s_{2Y}+D_Zs_{1Z}s_{2Z}
+ \end{eqnarray}
+ ここで、$s_i$はスピン1のパウリ行列である。
+ 
+   \begin{displaymath}
+     s_X=\frac{1}{\sqrt{2}}
+     \left( \begin{array}{rrr}
+       &1&\\
+       1&&1\\
+       &1&
+     \end{array} \right), 
+     s_Y=\frac{1}{\sqrt{2}}
+     \left( \begin{array}{rrr}
+       &-i&\\
+       i&&-i\\
+       &i&
+     \end{array} \right), 
+     s_Z=
+     \left( \begin{array}{rrr}
+       1&&\\
+       &&\\
+       &&-1
+     \end{array} \right)
+   \end{displaymath}
+     \\
+   \begin{displaymath}
+     s_X^2=\frac{1}{2}
+     \left( \begin{array}{rrr}
+       1&&1\\
+       &2&\\
+       1&&1
+     \end{array} \right), 
+     s_Y^2=\frac{1}{2}
+     \left( \begin{array}{rrr}
+       1&&-1\\
+       &2&\\
+       -1&&1
+     \end{array} \right), 
+     s_Z^2=
+     \left( \begin{array}{rrr}
+       1&&\\
+       &&\\
+       &&1
+     \end{array} \right)
+   \end{displaymath}
+ 
+ %(\ref{HF2})は
+ 
+ \begin{eqnarray}
+   \mathcal{H_F}&=&\frac{1}{2}
+   \left( \begin{array}{rrr}
+     D_X+D_Y+2D_Z&&D_X-D_Y\\
+     &2(D_X+D_Y)&\\
+     D_X-D_Y&&D_X+D_Y+2D_Z
+   \end{array} \right)\\
+   &=&\frac{1}{2}
+   \left( \begin{array}{rrr}
+     D_Z&&D_X-D_Y\\
+     &-2D_Z&\\
+     D_X-D_Y&&D_Z
+   \end{array} \right)\\
+   &=&
+   \left( \begin{array}{rrr}
+     D&&D-E\\
+     &&\\
+     E&&D
+   \end{array} \right)
+   -\frac{2}{3}
+   \left( \begin{array}{rrr}
+     D&&\\
+     &D&\\
+     &&D
+   \end{array} \right)\\
+   &=&
+   D(s_Z-\frac{1}{3}s(s+1))+E(s_X^2-s_Y^2)
+ \end{eqnarray}
+ となる。このハミルトニアンについて固有値方程式を解くと
+ \begin{eqnarray}
+   \left\{
+   \begin{array}{l}
+   E_X=\frac{1}{3}D-E \\
+   E_Y=\frac{1}{3}D+E \\
+   E_Z=-\frac{2}{3}D
+   \end{array}
+   \right\}
+   \end{eqnarray}
+ ここで、$D=\frac{2}{3}D_Z,E=\frac{1}{2}(D_X-D_Y)$である。\\
+ ペンタセンにおいて$D=1381$ MHz,$E=-42$ MHzより
+ \begin{eqnarray}
+   \left\{
+   \begin{array}{l}
+   X=E_X=502 MHz \\
+   Y=E_Y=418 MHz \\
+   Z=E_Z=-921MHz
+   \end{array}
+   \right\}
+   \end{eqnarray}
+ となる。このように、三重項状態のペンタセン電子スピンは磁気双極子相互作用により縮退が解け、これをゼロ磁場分裂(Zero Field Splitting)という。
+ 
+ \subsection{静磁場下におけるエネルギー}
+ 静磁場中のスピンは次式で表されるゼーマンエネルギーを持つ。
+ \begin{equation}
+   \mathcal{H_Z}=g\beta B_0 S_Z = \omega_S S_Z 
+ \end{equation}
+ ここで、$\beta $ ( $2\pi \cdot$ 14 GHz$\cdot$ rad/T)はボーア磁子、$g(\sim 2)$はg因子である。
+ 従って、静磁場中の三重項状態の電子スピンが持つエネルギーは下式となる。
+ \begin{eqnarray}
+   \mathcal{H}&=&\mathcal{H_{ZFS}}+\mathcal{H_Z}\\
+   &=&D(S_Z^2-\frac{2}{3})+E(S_X^2-S_Y^2)+\omega_S S_Z
+ \end{eqnarray}
+ このハミルトニアンに対応する固有値$\omega_{+1},\omega_0,\omega_{-1}$は図$\ref{pentacene_axes}$のようなペンタセン分子の対称軸に対する磁場の向きに依存し、
+ 磁場がいずれかの主軸と平行の時、エネルギー固有値を解析的に求めることができる。
+ 
+ 
+ 
+ 以下に各静磁場の向きにおけるエネルギー固有値をまとめる。(いずれこれらも導出したい)\\
+ 1.$\Theta=90,\Phi=0(B_0\parallel X)$
+ \begin{eqnarray}
+   \omega _{+1}&=&\frac{Y+Z}{2}+\sqrt[]{\frac{1}{4}(Y-Z)^2+\omega_S^2} \\
+   \omega _0&=&X\\
+   \omega _{+1}&=&\frac{Y+Z}{2}-\sqrt[]{\frac{1}{4}(Y-Z)^2+\omega_S^2} \\
+ \end{eqnarray}
+ 2.$\Theta=90,\Phi=90(B_0\parallel Y)$
+ \begin{eqnarray}
+   \omega _{+1}=&=&\frac{Y+Z}{2}+\sqrt[]{\frac{1}{4}(Y-Z)^2+\omega_S^2} \\
+   \omega _0&=&Y\\
+   \omega _{+1}&=&\frac{Y+Z}{2}-\sqrt[]{\frac{1}{4}(Y-Z)^2+\omega_S^2} \\
+ \end{eqnarray}
+ 3.$\Theta=0(B_0\parallel Z)$
+ \begin{eqnarray}
+   \omega _{+1}=&=&\frac{Y+Z}{2}+\sqrt[]{\frac{1}{4}(Y-Z)^2+\omega_S^2} \\
+   \omega _0&=&Z\\
+   \omega _{+1}&=&\frac{Y+Z}{2}-\sqrt[]{\frac{1}{4}(Y-Z)^2+\omega_S^2} \\
+ \end{eqnarray}
+
+
+
+% \chapter{まとめと展望}
+% 我々のグループは、四核子系における三体核力の性質を詳細に調べていくために、$70~{\rm MeV}$の陽子--$^3$He弾性散乱実験による有限散乱角度での$^3$He偏極分解能$A_y$の測定を目的としている。$^3$He偏極分解能を得るためには、偏極$^3$He標的の偏極度の絶対値を求める必要がある。しかし、現在$^3$He偏極度の測定方法として採用しているAFP-NMR法のみでは、$^3$He偏極度の相対値しか得る事が出来ない。本研究では、$^3$He偏極度の絶対値測定およびAFP-NMR法の較正のために、RbのESR周波数シフト測定による$^3$He偏極度測定システムを開発した。$^3$He偏極度の測定精度としては、$10$％以下を目標とした。\\
+% 　RbのESR周波数シフト測定は、$^3$Heの核スピンの向きを反転させ、静磁場に対して平行または反平行の状態でのESR周波数を測定し、それらの差を取ることで行った。ESRコイルによって振動磁場を印可し、光ポンピングによって励起したRbのESRを誘起する。ESRによって脱励起したRb原子が放出する蛍光をフォトダイオードによって観測し、その時放出される蛍光強度が最大となる振動磁場の周波数がESR周波数となる。またESRコイルはVCOに接続され、PI-フィードバック回路によって常に振動磁場の周波数が共鳴周波数付近で変調させるようにした。\\
+% 　本研究において開発した$^3$He偏極度測定システムを用いて、上記の方法でRbのESR周波数シフト測定を行った。AFP法によって$^3$Heの核スピンを反転させ、それぞれの状態においてESR周波数測定を行い、ESR周波数のシフトを確認することに成功した。典型的なESR周波数シフトは$3~{\rm kHz}$程度であった。また得られたESR周波数のシフトから$^3$He偏極度を求め、その値と反転時に測定したNMR信号強度とを対応させることでAFP-NMR法の較正を行った。その結果、NMR信号強度$V_{\rm NMR}$および$^3$He偏極度$P_{\rm ^3He}$は
+% %
+% \begin{equation}
+%  P_{\rm ^3He}~[％] = (5.72 \pm 0.61) \times 10^{-2} V_{\rm NMR}~[{\rm mV}]
+%  \label{rel_P_3He-Vnmr}
+% \end{equation}
+% %
+% と対応付けられた。\\
+% 　東北大学CYRICにおいて、$70~{\rm MeV}$の陽子--$^3$He弾性散乱実験による$^3$He偏極分解能$A_y$の測定を行った。その結果、$^3$Heの核スピンの向きによる散乱陽子数の非対称が確認され、較正したNMR信号強度で得られた$^3$He偏極度から$A_y$を求めた。$A_y$の系統誤差は、本研究で開発した$^3$He偏極度測定システムの測定精度によるものが$11$％程度であり、散乱測定系によるものが$30$％程度であった。\\
+% 　今後は、$^3$He偏極分解能$A_y$の系統誤差を抑制するために、$^3$He偏極度の向上および本研究で開発したRbのESR周波数シフト測定による$^3$He偏極度測定システムの測定精度の向上を行っていく方針である。$^3$He偏極度の向上としては、ガラスセルの不純物の除去および半導体レーザーの狭帯域化、高出力化を図る。また本研究で開発した$^3$He偏極度測定システムの測定精度の向上としては、静磁場の揺らぎの補正および$^3$Heガス圧力の測定システムの構築を図る。
+ 
